@@ -155,7 +155,7 @@ void treeOrder( TreeNodePtr treePtr, int sub )
       treeOrder( treePtr->rightPtr, sub ); //Recursion to the right
       
       
-      for(int i=0;i<sub;i++)
+      for(int i=1;i<sub;i++)
       {
          printf("   ");
 
